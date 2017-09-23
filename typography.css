@@ -1,0 +1,68 @@
+@import url('https://fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular,bold|GeorgiaPro:regular');
+
+h1.special {
+	font-family: BentonSansCondBold,Arial,sans-serif;
+	font-size: 3em ;
+	color: white;
+}
+
+h1.special-content {
+	font-family: BentonSansCondBold,Arial,sans-serif;
+	font-size: 2em ;
+	color: black;
+}
+
+h2.special-content {
+	font-family: BentonSansCondBold,Arial,sans-serif;
+	font-size: 2em ;
+	color: black;
+}
+h2.special {
+	font-family: BentonSansRegular,Arial,sans-serif;
+	font-size: 1.5em ;
+	color: white;
+}
+
+p.special-content {
+	font-family: BentonSansRegular,Arial,sans-serif;
+	font-size: 1.5em ;
+	color: black;
+}
+
+h3.special {
+	font-family: BentonSansCondBold,Arial,sans-serif;
+	font-size: 1.5em ;
+	color: black;
+}
+
+h3.special-white {
+	font-family: BentonSansCondBold,Arial,sans-serif;
+	font-size: 1.5em ;
+	color: white;
+}
+
+
+
+  .bg-img { 
+        background-image: url(http://res.cloudinary.com/sanchitsoni18/image/upload/v1506166395/banner_ukuti3.jpg) ;
+        background-position: center center;
+        background-repeat:  no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #990000;
+
+ }
+
+ .bg-img-2 { 
+        background-image: url(talk-banner.jpg) ;
+        background-position: center center;
+        background-repeat:  no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #990000;
+
+ }
+
+
+
+

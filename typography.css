@@ -6,6 +6,47 @@ h1.special {
 	color: white;
 }
 
+.front-head {
+    color: 	#696969;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.content h1 {
+    color: 	#696969;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+
+h2.special {
+	font-family: BentonSansRegular,Arial,sans-serif;
+	font-size: 1.5em ;
+	color: white;
+}
+
+p.special{
+	font-family: BentonSansRegular,Arial,sans-serif;
+	font-size: 1em ;
+	color: black;
+}
+
+p.date{
+	font-family: BentonSansRegular,Arial,sans-serif;
+	font-size: 1em ;
+	color: #696969;
+}
+
+h2.home-card {
+	font-family: BentonSansCondBold,Arial,sans-serif;
+	font-size: 1.2em ;
+	line-height: 1.5em;
+	color: black;
+}
+
+/*this is for content pages */
 h1.special-content {
 	font-family: BentonSansCondBold,Arial,sans-serif;
 	font-size: 2em ;
@@ -17,16 +58,11 @@ h2.special-content {
 	font-size: 2em ;
 	color: black;
 }
-h2.special {
-	font-family: BentonSansRegular,Arial,sans-serif;
-	font-size: 1.5em ;
-	color: white;
-}
-
 p.special-content {
 	font-family: BentonSansRegular,Arial,sans-serif;
-	font-size: 1.5em ;
-	color: black;
+	font-size: 1.1em ;
+	padding: 5%;
+	color: #696969;
 }
 
 h3.special {
@@ -44,7 +80,7 @@ h3.special-white {
 
 
   .bg-img { 
-        background-image: url(http://res.cloudinary.com/sanchitsoni18/image/upload/v1506166395/banner_ukuti3.jpg) ;
+        background-image: url(banner.jpg) ;
         background-position: center center;
         background-repeat:  no-repeat;
         background-attachment: fixed;
@@ -54,7 +90,7 @@ h3.special-white {
  }
 
  .bg-img-2 { 
-        background-image: url(talk-banner.jpg) ;
+        background-image: url(banner.jpg) ;
         background-position: center center;
         background-repeat:  no-repeat;
         background-attachment: fixed;
@@ -62,6 +98,80 @@ h3.special-white {
         background-color: #990000;
 
  }
+
+ .box {
+ 	
+ 	background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    color: #4a4a4a;
+    display: block;
+    padding: 0.5rem;
+    flex: 1;
+   
+}
+
+
+.column {
+	display:flex; 
+	justify-content: space-between;
+	
+}
+
+img.center {
+	padding-top: 10px;
+	padding-bottom: 15px;
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+/* Overline From Left */
+.hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hover:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  top: 0;
+  background: #363636;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hover:hover:before, .hover:focus:before, .hover:active:before {
+  right: 0;
+}
+
+/* Grow */
+.grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 
 
 
